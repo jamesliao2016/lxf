@@ -1,5 +1,6 @@
 # taskmanager.py
-import random, time, Queue
+import random, time
+from multiprocessing import Queue
 from multiprocessing.managers import BaseManager
 # 发送任务的队列:
 task_queue = Queue.Queue()
